@@ -55,10 +55,31 @@ video {
 //   border: 1px solid rgba(86, 61, 124, 0.2);
 // }
 
+body {
+  color: #e00000;
+}
 footer {
   background: #ffe2dd;
 }
 
 header {
   background-image: url(../img/fond-biere.png);
+}
+
+h2 {
+  color: #e00000;
+  font-family: Anton;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #e00000;
+  font-family: Antic;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
