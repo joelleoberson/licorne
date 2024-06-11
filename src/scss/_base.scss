@@ -68,7 +68,7 @@ header {
 
 h2 {
   color: #e00000;
-  font-family: Anton;
+  font-family: "Anton";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -77,9 +77,14 @@ h2 {
 
 p {
   color: #e00000;
-  font-family: Antic;
+  font-family: "Antic";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@font-face {
+  font-family: "anton";
+  src: url("../font/Anton-Regular.woff2") format("woff2");
 }
