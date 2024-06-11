@@ -5,3 +5,10 @@ footer {
 footer h2 {
   padding-top: 34px;
 }
+
+.big-castle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
