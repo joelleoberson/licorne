@@ -1,5 +1,4 @@
 header {
-  // background-image: url(../img/fond-biere.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,4 +6,25 @@ header {
 
 header a {
   padding-bottom: 306px;
+  position: absolute;
+}
+
+.header-button {
+  color: #fff;
+  font-size: 24px;
+  border-radius: 11px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 52px;
+  background: #e00000;
+  margin-top: 54px;
+}
+
+nav {
+  margin-bottom: 430px;
+}
+
+.header-fond img {
+  position: relative;
 }

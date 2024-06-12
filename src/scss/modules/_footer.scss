@@ -12,3 +12,27 @@ footer h2 {
   align-items: center;
   justify-content: center;
 }
+
+.footer-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer a {
+  font-family: Antic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.footer-logo p {
+  text-align: center;
+  font-family: Antic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

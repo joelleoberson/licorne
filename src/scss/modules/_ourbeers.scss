@@ -34,6 +34,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 14px;
+  margin-bottom: 32px;
 }
 
 .ourbeers-0-alcool img {
@@ -46,4 +48,58 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.ourbeers-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.ourbeers-money {
+  color: #e00000;
+  font-family: Anton;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-hover {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.image-hover:hover {
+  content: url(../img/hover-blond.png);
+}
+
+.image-hover-brune {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.image-hover-brune:hover {
+  content: url(../img/hover-brune.png);
+}
+
+.image-hover-ipa {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+
+.image-hover-ipa:hover {
+  content: url(../img/hover-ipa.png);
 }

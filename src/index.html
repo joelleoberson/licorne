@@ -14,14 +14,32 @@
   </head>
   <body>
     <header>
-      <img src="img/fond-biere.png" alt="" />
+      <div class="header-fond">
+        <img src="img/fond-biere.png" alt="" />
+      </div>
       <nav>
-        <a href="#nos-bieres">Nos bières</a>
-        <a href="#notre-histoire">Notre histoire</a>
-        <a href="#shop">Shop</a>
-        <a href="#points-de-vente">Points de vente</a>
-        <a href="#contact">Contact</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <a href="#nos-bieres">Nos bières</a>
+              <a href="#notre-histoire">Notre histoire</a>
+              <a href="#shop">Shop</a>
+            </div>
+            <div class="col-3 offset-5">
+              <a href="#points-de-vente">Points de vente</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a class="header-button" href="">Me connecter</a>
+            <a class="header-button" href="">Créer un compte</a>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="container">
       <div class="Licorne">
@@ -91,38 +109,56 @@
           <div class="row">
             <div class="col-4">
               <div class="ourbeers-bottle">
-                <img src="img/blonde.png" alt="Bière blonde" />
+                <img
+                  class="image-hover"
+                  src="img/blonde.png"
+                  alt="Bière blonde"
+                />
               </div>
               <h3>Blonde</h3>
               <p class="ourbeers-ingredient">
                 Eau, malt d'orge, colorant : E150c, arôme naturel, houblon.
                 Allergènes : Gluten
               </p>
-              <p>33cl</p>
-              <p>CHF 4.60</p>
+              <div class="ourbeers-box">
+                <p class="ourbeers-ingredient">33cl</p>
+                <p class="ourbeers-ingredient ourbeers-money">CHF 4.60</p>
+              </div>
             </div>
             <div class="col-4">
               <div class="ourbeers-bottle">
-                <img src="img/brune.png" alt="Bière brune" />
+                <img
+                  class="image-hover-brune"
+                  src="img/brune.png"
+                  alt="Bière brune"
+                />
               </div>
               <h3>Brune</h3>
               <p class="ourbeers-ingredient">
                 Eau, malt torréfié d'orge, malt torréfié de blé, houblon.
                 Allergènes : Gluten
               </p>
-              <p>33cl</p>
-              <p>CHF 4.60</p>
+              <div class="ourbeers-box">
+                <p class="ourbeers-ingredient">33cl</p>
+                <p class="ourbeers-ingredient ourbeers-money">CHF 4.60</p>
+              </div>
             </div>
             <div class="col-4">
               <div class="ourbeers-bottle">
-                <img src="img/ipa.png" alt="Bière IPA sans gluten" />
+                <img
+                  class="image-hover-ipa"
+                  src="img/ipa.png"
+                  alt="Bière IPA sans gluten"
+                />
               </div>
               <h3>IPA sans gluten</h3>
               <p class="ourbeers-ingredient">
                 Houblon agrume, eau, coriandre, malt de seigle.
               </p>
-              <p>33cl</p>
-              <p>CHF 4.60</p>
+              <div class="ourbeers-box">
+                <p class="ourbeers-ingredient">33cl</p>
+                <p class="ourbeers-ingredient ourbeers-money">CHF 4.60</p>
+              </div>
             </div>
           </div>
         </div>
@@ -131,7 +167,7 @@
         <div class="ourhistory">
           <div class="container">
             <div class="row">
-              <div class="col-4">
+              <div class="col-5">
                 <h2>Notre histoire</h2>
                 <p>
                   En 2023, Sylvain concrétise son rêve en fondant la Brasserie
@@ -143,7 +179,7 @@
                   la qualité et l'authenticité.
                 </p>
               </div>
-              <div class="col-6 offset-2">
+              <div class="col-6 offset-1">
                 <div class="ourhistory-barrel">
                   <img src="img/beer-barrel.png" alt="" />
                 </div>
@@ -224,21 +260,25 @@
           </div>
           <div class="col-2 offset-1">
             <h2>Adresse de la Brasserie</h2>
-            <address>
+            <a href="">
               Licorne Sylvain Megroni<br />
               Chemin du Lac 2<br />
               CH-1470 Estavayer-Le-Lac
-            </address>
+            </a>
           </div>
           <div class="col-12">
             <p><a href="#">Politique de confidentialité</a></p>
             <p><a href="#">Conditions générales de vente</a></p>
           </div>
           <div class="col-12">
-            <img src="#" alt="Logo" />
-            <img src="img/logo-footer.png" alt="Logo" />
-            <p>© 2024 Licorne. Tous droits réservés.</p>
-            <img src="#" alt="" />
+            <div class="footer-img">
+              <img src="img/left-flower.png" alt="Logo" />
+              <div class="footer-logo">
+                <img src="img/logo-footer.png" alt="Logo" />
+                <p>© 2024 Licorne. Tous droits réservés.</p>
+              </div>
+              <img src="img/flower-right.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
