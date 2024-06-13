@@ -1,12 +1,22 @@
-header {
+.header-banner {
+  background-image: url(../img/banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 416px;
+  position: relative;
 }
 
 header a {
-  padding-bottom: 306px;
-  position: absolute;
+  padding-top: 22px;
+  color: #fff;
+  font-family: Anton;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding-left: 56px;
 }
 
 .header-button {
@@ -18,13 +28,71 @@ header a {
   padding: 10px;
   border-radius: 52px;
   background: #e00000;
-  margin-top: 54px;
 }
 
-nav {
-  margin-bottom: 430px;
+.header-langue {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 61px;
+  position: absolute;
+  bottom: 0;
+  right: 142px;
 }
 
-.header-fond img {
-  position: relative;
+.header-nav-left {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  top: 22px;
+}
+
+.header-nav-right {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 142px;
+}
+
+.header-langue a {
+  padding-left: 6px;
+}
+
+// .header-fond img {
+//   position: relative;
+// }
+
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 640px;
+}
+
+.header-button-box {
+  margin-top: 200px;
+  margin-bottom: 247px;
+}
+
+.header-button-cree-un-compte {
+  color: #e00000;
+  border-radius: 52px;
+  border: 1px solid #e00000;
+  background: #fff;
+}
+
+.header-button-cree-un-compte:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
+}
+
+header a:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
 }
