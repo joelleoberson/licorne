@@ -85,14 +85,15 @@ header a {
   background: #fff;
 }
 
-.header-button-cree-un-compte:hover {
+.header-button-cree-un-compte:hover,
+.header-button-box a:hover {
   border-radius: 52px;
   background: #ac0e0e;
   color: #fff;
 }
 
-header a:hover {
-  border-radius: 52px;
-  background: #ac0e0e;
-  color: #fff;
+.header-nav-right a:hover,
+.header-nav-left a:hover,
+.header-langue a:hover {
+  text-decoration: underline;
 }

@@ -103,3 +103,44 @@
 .image-hover-ipa:hover {
   content: url(../img/hover-ipa.png);
 }
+
+.ourbeers-shop {
+  margin-top: 35px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Antic;
+}
+
+.ourbeers-shop a:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
+}
+
+.ourbeers-shop a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 11px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 52px;
+  background: #e00000;
+}
+
+.Licorne-order {
+  margin-top: 54px;
+  font-family: "Antic";
+}
+
+.Licorne-order a {
+  font-family: "Antic";
+}
+
+.Licorne-order a:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
+  font-family: "Antic";
+}
