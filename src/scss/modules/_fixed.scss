@@ -9,6 +9,17 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   position: fixed;
+  top: 0;
+  right: 0;
   padding-top: 31px;
   gap: 31px;
+  z-index: 1000;
+}
+
+.fixed img {
+  transition-duration: 0, 5s;
+}
+
+.fixed img:hover {
+  transform: scale(1.2);
 }
