@@ -40,3 +40,61 @@ footer a {
 .footer-policy {
   padding-bottom: 72px;
 }
+
+.textfield {
+  position: relative;
+}
+
+.textfield label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.textfield input {
+  background: #f8ccc3;
+  border: none;
+  padding: 10px;
+  margin-bottom: 21px;
+}
+
+.textfield label:hover {
+  opacity: 0;
+}
+
+footer a:hover {
+  color: #ac0e0e;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-button {
+  color: #fff;
+  font-size: 24px;
+  border-radius: 11px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 52px;
+  background: #e00000;
+}
+
+.footer-button:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
+}
+
+.footer-button a:hover {
+  border-radius: 52px;
+  background: #ac0e0e;
+  color: #fff;
+}

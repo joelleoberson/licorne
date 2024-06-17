@@ -84,3 +84,7 @@ p {
   font-family: "anton";
   src: url("../font/Anton-Regular.woff2") format("woff2");
 }
+
+html {
+  scroll-behavior: smooth;
+}
